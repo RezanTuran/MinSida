@@ -503,24 +503,33 @@ footer{
     height: 210px;
     box-sizing: border-box;
     font-size: 50px;
-    float: left;
     padding-top: 67px;
     padding-bottom: 30px;
     margin: 10px;
-    
 }
-.box-footer-blue{
+.box-footer2{
     display: grid;
     justify-content: center;
     width: 20%;
     height: 210px;
     box-sizing: border-box;
     font-size: 50px;
-    float: left;
+    padding-top: 67px;
+    padding-bottom: 30px;
+    margin: 10px;
+    position: relative;
+    left: -64px;
+}
+.box-footer-blue{
+    display: grid;
+    justify-content: center;
+    width: 20%;
+    height: 230px;
+    box-sizing: border-box;
+    font-size: 50px;
     padding-top: 67px;
     padding-bottom: 30px;
     background-color: #00c5be;
-    margin: 10px;
 }
 .adress-ico{
     position: relative;
@@ -534,8 +543,6 @@ address{
 .tel{
     font-size: 17px;
     font-style: initial;
-    position: relative;
-    right: 60px;
     padding-top: 0;
 }
 .epost-ico{
@@ -545,4 +552,19 @@ address{
 .epost-text{
     font-size: 17px;
     padding-top: 0px;
+}
+.iphone-ico{
+    position: relative;
+    left: 50px;
+}
+.social{
+    margin: 0 0 1.5em 0;  
+    list-style:disc;
+}
+.social-li{
+    display: inline-block;
+    margin: 5px; 
+}
+.social-icon{
+    width: 50px;
 }
