@@ -1,0 +1,121 @@
+
+    @media screen and (max-width:1200px){
+        .box-pizza{
+            width: 40%;
+        }
+        .box-burgare{
+            width: 40%;
+        }
+        .box-rulle{
+            width: 40%;
+            margin-top: 100px;
+        }
+        .box-kolgrill{
+            width: 40%;
+            margin-top: 100px;
+        }
+        .matbild{
+            width:100%;
+        }   
+    }
+    
+    @media screen and (max-width:768px){
+        .visa{
+            max-height: 28em;
+        }
+        nav ul{
+            max-height: 0;
+            background-color: rgba(160, 25, 25, 0.5);
+            overflow: hidden;
+            color: white;
+            padding: 0;
+            text-align: center;
+            margin-top: 74px;    
+        }
+        nav ul li{
+            box-sizing: border-box;
+            width: 100%;
+            padding: 15px;
+            text-align: left;
+        }
+        .menu{
+            display:block;
+            position: fixed;
+            min-width: 160px;
+            z-index: 1000;
+        }
+        .menuicon{
+            width: 50px;
+            height: 40px;
+        }
+        a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 0;
+            text-decoration: none;
+        }
+        .box-pizza{
+            width: 90%;
+        }
+        .box-burgare{
+            width: 90%;
+            margin-top: 114px;
+        }
+        .box-rulle{
+            width: 90%;
+            margin-top: 100px;
+        }
+        .box-kolgrill{
+            width: 90%;
+            margin-top: 95px;
+        }
+        .box-text{
+            margin-top: 0px;
+        }
+        .button-meny{
+            margin-bottom: 10px;
+        }
+        .lunch-meny-rubrik{
+            font-size: 15px;
+        }
+        .bild-box{
+            width: 90%;
+        }
+        .text-box{
+            width: 90%;
+        }
+        .matbild{
+            width: 100%;
+            height: 472px;
+            margin-top: 125px;
+        }
+        #slideshow { 
+            width: 320px;
+            height: 510px;
+        }
+        .slidebild{
+            width: 315px;
+            height: 505px;
+        }
+        .box-meny{
+            width: 90%;
+            height: auto;
+        }
+        .map{
+            margin-top: 20px;
+        }
+        .box-froga{
+            width: auto;
+            height: auto;
+            margin: 0;
+            top: 0;
+            left: 0;
+        }
+        .box-button-meny {
+            width: auto;
+            position: relative;
+            top: 0;
+            right: 0;
+        }
+}
