@@ -1,8 +1,9 @@
+
 $(document).ready(function(){
     $('.menu').on('click', function(){
-        $('nav ul').toggleClass('visa');
+        $('.meny-list').toggle(1000);
     });
-    })
+    });
 
     /*Visa Lunch Meny*/
     $(document).ready(function(){
@@ -28,6 +29,15 @@ setInterval(function() {
       .appendTo('#slideshow');
   },  3000);
 
+/*Hela meny*/
+
+  $(document).ready(function(){
+    $(".button-hela-menyn").click(function(){
+        $("#hela-meny-sida").toggle(1000);
+    });
+});
+
+
 /*Visa hela meny */
 
 $(document).ready(function(){
@@ -35,6 +45,12 @@ $(document).ready(function(){
         $("#hela-meny-sida").toggle(1000);
     });
 });
+/*Länka*/
 
+$(document).ready(function(){
+    $(".meny-link").click(function(){
+        $("#hela-meny-sida").toggle(1000);
+    });
+});
 
 

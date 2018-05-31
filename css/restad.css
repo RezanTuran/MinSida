@@ -16,6 +16,9 @@ nav ul{
     position: fixed;
     z-index: 1000;
 }
+.meny-list{
+    display: none;
+}
 
 nav ul li{
     display: inline-block;
@@ -23,7 +26,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-    background-color: rgb(233, 33, 33);
+    background-color: #ddd;
 }
 a{
     display: block;
@@ -497,7 +500,7 @@ footer{
     background: #f6753c;
     color: white;
 }
-.container-footer{
+#container-footer{
     display: flex;
     width: 100%;
     height: auto;
@@ -585,4 +588,5 @@ address{
 .copyright{
     font-size: 16px;
     font-weight: bold;
+    text-decoration: none;
 }
