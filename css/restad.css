@@ -46,6 +46,9 @@ a{
 .linje{
     display: none;
 }
+.reponsive-logga-text{
+    display: none;
+}
 #backgroundvideo{
     right: 0;
     bottom: 20%;

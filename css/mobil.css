@@ -40,11 +40,19 @@
         #backgroundvideo{
             display: none;
         }
+        .reponsive-logga-text{
+            display: grid;
+            height: 163px;
+            position: relative;
+            top: -275px;
+            left: 203px;
+            width: 203px;
+        }
         .background{
             width: 100%;
             height: 300px;
             margin: 0;
-            background-image: url(../img/pizza.jpg);
+            background-image: url(../img/background-responsive.jpg);
             background-size: cover;
             margin-top: 74px;
         }
@@ -68,16 +76,12 @@
             left: -20px;
             top: -5px;
         }
-        .telefonnummer{
-            color: white;
-            float: right;
-            margin-right: 75px;
-            margin-top: 10px;
-        }
-        .phone-nav{
+        .responsive-logga{
+            height: 44px;
+            width: 187px;
             position: relative;
-            top: 2px;
-            left: 39px;
+            left: 82px;
+            top: 5px;
         }
         a{
             display: block;
