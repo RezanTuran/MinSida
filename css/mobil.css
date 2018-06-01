@@ -48,7 +48,7 @@
         }
         .responsive-rubrik{
             position: relative;
-            top: -80px;
+            top: -78px;
             text-align: center;
         }
         .responsive-reklam-text{
@@ -59,14 +59,8 @@
         }
         .telefon-nav{
             text-align: center;
+            font-size: 21px;
             margin-top: -100px;
-            font-size: 18px;
-        }
-        .telefon-ico{
-            position: relative;
-            left: 114px;
-            top: -60px;
-            width: 35px;
         }
      
         .menu{

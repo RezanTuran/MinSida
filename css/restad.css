@@ -20,6 +20,10 @@ nav ul{
     display: none;
 }
 
+.responsive-reklam-text{
+    display: none;
+}
+
 nav ul li{
     display: inline-block;
     padding: 20px;
