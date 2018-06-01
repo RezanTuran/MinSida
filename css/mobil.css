@@ -37,6 +37,8 @@
             margin-top: -16px;
         }
         .background{
+            display: grid;
+            justify-content: center;
             width: 100%;
             height: 690px;
             margin: 0;
@@ -46,8 +48,25 @@
         }
         .responsive-rubrik{
             position: relative;
-            top: -67px;
+            top: -80px;
             text-align: center;
+        }
+        .responsive-reklam-text{
+            display: grid;
+            width: 351px;
+            height: 233px;
+            margin-top: 252px;
+        }
+        .telefon-nav{
+            text-align: center;
+            margin-top: -100px;
+            font-size: 18px;
+        }
+        .telefon-ico{
+            position: relative;
+            left: 114px;
+            top: -60px;
+            width: 35px;
         }
      
         .menu{
