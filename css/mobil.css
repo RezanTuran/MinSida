@@ -16,6 +16,9 @@
         }
         .matbild{
             width:100%;
+        }
+        .box-meny-hela{
+            width: 40%;
         }   
     }
     
@@ -192,5 +195,13 @@
         .instagram-position{
             position: relative;
             left: 0;
+        }
+        .box-meny-hela{
+            width: 90%;
+           margin-left: 0;
+           margin: 20px;
+        }
+        .lijne-responsive-meny{
+            display: block;
         }
 }

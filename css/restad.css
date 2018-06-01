@@ -229,7 +229,7 @@ h2:after{
 }
 .box-text{
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 0;
     text-align: center;
 }
 .button-meny{
@@ -305,6 +305,9 @@ span{
     background-color: #4CAF50;
     color: white;
     transition: 0.5s;
+}
+.meny-reklam{
+    text-align: center;
 }
 
 /* Sida 2*/
@@ -492,8 +495,10 @@ span{
 }
 #hela-meny-sida{
     width: auto;
-    height: 100vw;
-    background-color: #309f52;
+    height: auto;
+    display: none;
+}
+.lijne-responsive-meny{
     display: none;
 }
 
@@ -592,5 +597,34 @@ address{
 .copyright{
     font-size: 16px;
     font-weight: bold;
-    text-decoration: none;
+}
+.social-media{
+    list-style-type: none;
+}
+
+/* Meny Sida */
+
+.pizza-meny-rubrik{
+    color: #309f52;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 33px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container-hela-menyn{
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-top: 40px;
+}
+.box-meny-hela{
+    width: 75%;
+    height: auto;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    margin-left: 180px;
 }
