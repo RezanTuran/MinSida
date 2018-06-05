@@ -4,7 +4,7 @@ body{
     font-family: sans-serif;
 }
 nav ul{
-    background-color: rgba(145, 134, 134, 0.5);
+    background-color: rgba(12, 11, 11, 0.5);
     overflow: hidden;
     color: white;
     width: 100%;
@@ -299,7 +299,7 @@ span{
     background: transparent;
     transition: 0.5s all ease;
     width: 260px;
-    height: 65px;
+    height: 25px;
 }
 .button-hela-menyn:hover{
     background-color: #4CAF50;

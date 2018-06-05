@@ -12,7 +12,7 @@ $(document).ready(function(){
         });
     });
     
-    /*Gömma buton*/
+    /*Gömma buton  (visa lunch memny)*/
     $(document).ready(function(){
         $(".button-meny").click(function(){
             $(this).hide();
@@ -31,9 +31,9 @@ setInterval(function() {
 
 /*Hela meny*/
 
-  $(document).ready(function(){
+$(document).ready(function(){
     $(".button-hela-menyn").click(function(){
-        $("#hela-meny-sida").toggle(1000);
+        $("#hela-meny-sida").slideDown("slow");
     });
 });
 
@@ -45,12 +45,11 @@ $(document).ready(function(){
         $("#hela-meny-sida").toggle(1000);
     });
 });
-/*Länka*/
 
+/*Länka*/
 $(document).ready(function(){
     $(".meny-link").click(function(){
-        $("#hela-meny-sida").toggle(1000);
+        $("#hela-meny-sida").slideDown("slow");
     });
 });
-
 
